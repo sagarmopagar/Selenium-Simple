@@ -34,7 +34,7 @@ public class ChromeTest {
         String title = driver.getTitle();
 
         // Verify
-        Assert.assertEquals(title,"Selenium WebDriver");
+        Assert.assertEquals(title,"Hands-On Selenium WebDriver with Java");
     }
 
 
