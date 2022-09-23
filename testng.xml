@@ -2,12 +2,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="C:/Sagar/Testing/Java Projects/Selenium-Simple">
-        <classes>
-            <class name="MyTests.ChromeTest">
-                <methods>
-                    <include name="test"/>
-                </methods>
-            </class>
-        </classes>
+        <packages>
+<!--            <package name="src.main.java.MyTests" />-->
+            <package name="Hello" />
+        </packages>
     </test>
 </suite>
